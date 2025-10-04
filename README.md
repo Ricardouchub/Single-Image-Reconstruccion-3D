@@ -8,10 +8,8 @@ Implementa un baseline tipo PSGN (Point Set Generation Network): ResNet-18 como 
 decodificador de puntos. Se entrenó y evaluó en ModelNet40, guardando artefactos de prueba (PNG/PLY/CSV)
 en la carpeta `tests/`.
 
-Resultados (ejemplo de una corrida)
------------------------------------
-- Chamfer Distance: 0.034009
-- F-score@1%: 0.447 (P=0.478, R=0.420)
+<img width="1269" height="805" alt="image" src="https://github.com/user-attachments/assets/87f9f6a7-1299-43ee-ad1d-b7ad3d103c4c" />
+
 
 Arquitectura
 ------------
@@ -34,18 +32,6 @@ Requisitos (mi entorno)
 - (Opcional para render) PyTorch3D construido desde fuente (CUDA Toolkit 12.4 + MSVC Build Tools).
 - Librerías: torchvision, open3d, trimesh, matplotlib, numpy.
 
-Uso rápido (notebooks)
-----------------------
-1) Abrir **Anaconda Prompt** y activar el entorno, luego cargar MSVC (si usarás PyTorch3D):
-   ```bat
-   conda activate nlp311
-   CALL "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
-   ```
-2) Lanzar Jupyter y abrir el notebook principal del proyecto.
-3) Entrenar el baseline PSGN (imagen → nube de puntos) con Chamfer.
-4) Ejecutar el harness de **tests**: guarda en `tests/` los PNG (input|pred|GT), PLY (pred/gt), y `results.csv` con métricas.
-5) (Opcional) Exportar `.obj/.glb` mediante remallado (Poisson o Ball-Pivoting).
-
 Evaluación
 ----------
 - Chamfer Distance (CD): distancia media de punto a superficie (simétrica).
@@ -66,9 +52,6 @@ Trabajo futuro
 - Métricas por clase y tabla comparativa con ablations (N puntos, tamaño de imagen, etc.).
 
 
-Cita / Créditos
+Autor
 ---------------
-- PSGN: Fan, Su, Guibas (CVPR 2017). Implementación simplificada en PyTorch.
-- ModelNet40: Wu et al. (Princeton ModelNet).
-
-(Generado: 2025-10-04 15:07:04)
+**Ricardo Urdaneta**
