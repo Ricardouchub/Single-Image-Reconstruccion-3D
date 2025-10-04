@@ -42,7 +42,6 @@ Limitaciones
 ------------
 - Ambigüedad inherente de single-view (zonas ocultas). Detalle fino limitado al ser nube de puntos.
 - Brecha de dominio entre renders y fotos reales.
-- PyTorch3D en Windows requiere toolchain de compilación; como alternativa, pre-render en disco.
 
 Trabajo futuro
 --------------
