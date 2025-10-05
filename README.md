@@ -3,10 +3,11 @@
 
 Resumen
 -------
-Este proyecto toma una imagen RGB de un objeto y genera una reconstrucción 3D como nube de puntos (N×3).
-Implementa un baseline tipo PSGN (Point Set Generation Network): ResNet-18 como encoder y un MLP como
+Este proyecto entrena una CNN que toma una imagen RGB de un objeto y genera una reconstrucción 3D como nube de puntos (N×3).
+Implementa un CNN baseline tipo PSGN (Point Set Generation Network): ResNet-18 como encoder y un MLP como
 decodificador de puntos. Se entrenó y evaluó en ModelNet40, guardando artefactos de prueba (PNG/PLY/CSV)
 en la carpeta `tests/`.
+
 
 <img width="1269" height="805" alt="image" src="https://github.com/user-attachments/assets/87f9f6a7-1299-43ee-ad1d-b7ad3d103c4c" />
 
