@@ -6,7 +6,7 @@ Implementa un CNN baseline tipo PSGN (Point Set Generation Network): ResNet-18 c
 decodificador de puntos. Se entrenó y evaluó en ModelNet40, guardando artefactos de prueba (PNG/PLY/CSV)
 en la carpeta `tests/`.
 
-[**Notebook**](https://github.com/Ricardouchub/Single-Image-Reconstruccion-3D/blob/main/Single-Image%20Reconstruccion-3D%20en%20ModelNet40.ipynb)
+[**Notebook**](https://github.com/Ricardouchub/Single-Image-Reconstruccion-3D/blob/main/Single-Image%20Reconstruccion-3D%20en%20ModelNet40.ipynb) | [**Modelo**](https://github.com/Ricardouchub/Single-Image-Reconstruccion-3D/blob/main/psgn_modelnet40.pt)
 
 
 <img width="1269" height="805" alt="image" src="https://github.com/user-attachments/assets/87f9f6a7-1299-43ee-ad1d-b7ad3d103c4c" />
