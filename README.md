@@ -38,11 +38,7 @@ Evaluación
 - Chamfer Distance (CD): distancia media de punto a superficie (simétrica).
 - F-score@τ: con umbral τ relativo al tamaño del objeto (típicamente τ=1% del diámetro).
 - Se reportan promedios y ejemplos cualitativos. En `tests/` se almacenan triptychs (input|pred|gt) y PLYs.
-
-Limitaciones
-------------
-- Ambigüedad inherente de single-view (zonas ocultas). Detalle fino limitado al ser nube de puntos.
-- Brecha de dominio entre renders y fotos reales.
+  
 
 Trabajo futuro
 --------------
@@ -51,7 +47,7 @@ Trabajo futuro
 - Entrenamiento con imágenes reales + adaptación de dominio.
 - Métricas por clase y tabla comparativa con ablations (N puntos, tamaño de imagen, etc.).
 
-
 Autor
----------------
-**Ricardo Urdaneta**
+--------------
+**Ricardo Urdaneta**  
+[LinkedIn](https://www.linkedin.com/in/ricardourdanetacastro/) | [GitHub](https://github.com/Ricardouchub)  
