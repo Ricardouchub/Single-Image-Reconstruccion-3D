@@ -25,13 +25,13 @@ Datos
 - Entrada: render 2D on-the-fly con PyTorch3D (o pre-render a disco para acelerar).
 - Salida: nube de puntos 3D alineada en [-1,1]^3 aprox.
 
-Requisitos (mi entorno)
+Entorno
 -----------------------
-- Windows 10/11 con GPU NVIDIA (RTX 3060, 12 GB VRAM).
+- Windows 10/11 con GPU NVIDIA
 - Python 3.11
 - PyTorch 2.6.0 + CUDA 12.4, TorchVision 0.21.x
-- (Opcional para render) PyTorch3D construido desde fuente (CUDA Toolkit 12.4 + MSVC Build Tools).
-- Librerías: torchvision, open3d, trimesh, matplotlib, numpy.
+- PyTorch3D (CUDA Toolkit 12.4 + MSVC Build Tools).
+- Torchvision, open3d, trimesh, matplotlib, numpy.
 
 Evaluación
 ----------
