@@ -19,10 +19,10 @@ Arquitectura
 - Pérdidas: Chamfer Distance (principal). Opcional: Repulsion Loss y Silhouette Loss.
 - Export: `.ply` para inspección con Open3D/MeshLab; remallado opcional a `.obj/.glb` (Poisson/BPA).
 
-Datos
+Dataset
 -----
-- Dataset: ModelNet40 (Princeton). Los `.off` se normalizan a unidad y se muestrea la superficie a N=2048 puntos.
-- Entrada: render 2D on-the-fly con PyTorch3D (o pre-render a disco para acelerar).
+- **ModelNet40**
+- Entrada: render 2D on-the-fly con PyTorch3D 
 - Salida: nube de puntos 3D alineada en [-1,1]^3 aprox.
 
 Entorno
