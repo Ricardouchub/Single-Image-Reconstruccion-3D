@@ -3,7 +3,7 @@
 
 Este proyecto entrena una CNN que toma una imagen RGB de un objeto y genera una reconstrucción 3D como nube de puntos (N×3).
 Implementa un CNN baseline tipo PSGN (Point Set Generation Network): ResNet-18 como encoder y un MLP como
-decodificador de puntos. Se entrenó y evaluó en ModelNet40, guardando artefactos de prueba (PNG/PLY/CSV)
+decoder de puntos. Se entrenó y evaluó en ModelNet40, guardando artefactos de prueba (PNG/PLY/CSV)
 en la carpeta `tests/`.
 
 [**Notebook**](https://github.com/Ricardouchub/Single-Image-Reconstruccion-3D/blob/main/Single-Image%20Reconstruccion-3D%20en%20ModelNet40.ipynb) | [**Modelo**](https://github.com/Ricardouchub/Single-Image-Reconstruccion-3D/blob/main/psgn_modelnet40.pt)
